@@ -1,0 +1,145 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+
+/*--------------------------------------------------------------------main page header-------------------------------------------------------------------------------------*/
+
+.navbar{
+	display:flex;
+	align-items:center;
+	padding:20px;
+}
+nav{
+	flex:1;
+	text-align:right;
+}
+nav ul{
+	display:inline-block;
+	list-style-type:none;
+}
+nav ul li{
+	display:inline-block;
+	margin-right:80px;
+	
+}
+nav ul li a{
+	color:#fff;
+
+}
+a{
+	text-decoration:none;
+	color:#555;
+}
+p{
+	color:#555;
+}
+.container{
+	max-width:1300px;
+	margin:auto;
+	padding-left:25px;
+	padding-right:25px;
+}
+.rows{
+	display:flex;
+	align-items:left;
+	flex-wrap:wrap;
+	
+}
+.col-2{
+	flex-basis:50%;
+	min-width:50px;
+}
+.col-2 h1{
+	color:#000;
+	font-size:50px;
+	line-height:60px;
+	margin:10px 0px;
+}
+.col-2 p{
+	color:#fff;
+}
+.btn{
+	display:inline-block;
+	background:#F52D32;
+	color:#fff;
+	padding:8px 30px;
+	margin:30px 0;	
+	border-radius:30px;  														/* shope now button radius */
+	transition:background 0.5s;													/* color change speed is shope now button */
+}
+.btn:hover{
+	background:#837f1c;															/* color change shop now button */
+}
+.background-image{	
+	/*background:liner-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3))url('bg1.jpg');	*/				                    /* home page background image */
+    background:rgba(0,0,0,0.7)url('picture/bg1.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-blend-mode:darken;
+}
+
+/* ------------------------------------------------------------------------add categories home page---------------------------------------------------------- */
+
+.categories{
+	max-width:1080px;
+	margin:10px 200px;
+	padding:center;	
+}
+.col-3{
+	flex-basis:30%;
+	min-width:250px;
+	margin-bottom:30px;
+	transition:transform 0.5s;
+}
+.col-3 img{
+	width:100%;
+}
+h3{
+	margin:5px 200px;
+	font-size:40px;
+}
+/*.background-bottom{
+	background-color:#F7DC6F;
+}*/
+.col-3:hover{
+	transform:translatey(-5px);
+}
+
+/*------------------------------------------------------------------------------------footer-------------------------------------------------------------------------------*/
+
+.footer{
+	/*display:flex;*/
+	background:#000;
+	color:#8a8a8a;
+	font-size:18px;
+	/*padding:10px ;*/
+}	
+.footer h3{
+	color:#fff;
+	margin-bottom:20px;
+}
+.footer ul li{
+	list-style-type:none;
+}
+.footer-col-1 img{
+	width:150px;
+	margin-left: 20px;
+}
+
+.footer-col-3 ul li{
+	margin-bottom: 2px;
+}
+
+.footer-col-1 , .footer-col-2 ,.footer-col-3{
+	width:200px;
+	/* margin-bottom:10px; */
+	display: inline-block;
+}
+.footer-col-2,.footer-col-3{
+	text-align:center;
+	margin-left: 250px;
+	margin-bottom: 10px;
+}
+

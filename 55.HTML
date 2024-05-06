@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>details</title>
+        <link rel="stylesheet" href="account.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="logo">
+             <img src="picture/logo2.png" width="120px">										           	<!--add logo-->
+            </div>
+            <nav>
+             <ul>
+              <li><a href="royal cty home page.html">Home</a></li>
+              <li><a href="">Account</a></li>													             <!--add toolbar list and link pages-->
+              <li><a href="">Contact</a></li>
+              <li><a href="">About</a></li>
+             </ul>
+            </nav>
+            <a href="cart.html"><img src="picture/cart2.png" width="30px" height="30px"></a>				             <!--add cart icon and link cart page-->
+           </div>
+<!------------------------------------------------------------------------01-------------------------------------------------------->
+        <div class="details">
+        <div class="col-4">
+            <img src="picture/c3..jfif" width="100%" id="ProductImg">
+        </div>
+        
+        <div class="col-4">
+            <p>Home / Cap</p>
+            <h1>II cap</h1>
+            <h4>$2:00</h4>
+            <select>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select>
+            <input type="number" value="1">
+            <a href="" class="btn">Add To Cart</a>
+            <h3>Product details</h3>
+        </div>
+        <div class="small-img">
+            <div class="small-img-col">
+                <img src="picture/c3..jfif" width="100%" class="small-img">
+            </div>
+            <div class="small-img-col">
+                <img src="picture/c3.1.jfif" width="100%" class="small-img">
+            </div>
+            <div class="small-img-col">
+                <img src="picture/c3.2.jfif" width="100%" class="small-img">
+            </div>
+        </div>
+    </div>
+<!----------------------------------------------------------------footer--------------------------------------------------------------->
+   
+<div class="footer">
+  <div class="container">
+<div class="row">
+ <div class="footer-col-1">
+  <img src="picture/logo2.png">
+ </div>
+  <div class="footer-col-2">
+   <h4>Useful link</h4><br>
+ <ul>
+  <a href=""><li>coupons</li></a>
+  <a href=""><li>Return policy</li></a>
+ </ul>
+ </div>
+ <div class="footer-col-3">
+   <h4>Follow Us</h4><br>
+ <ul>
+  <a href="https://www.facebook.com/royalcitytextile"><li>Facebook</li></a>
+  <a href="https://instagram.com/royal_city_textiles?igshid=YmMyMTA2M2Y="><li>Instagram</li></a>
+  <a href="https://www.tiktok.com/@royal_city_textiles?_t=8X4cYhHF9LG&_r=1"><li>Tiktok</li></a>
+ </ul>
+ </div>
+</div>
+</div>
+</div>
+<!-- -------------------------------------------js product gallary-------------------------------- -->
+<script>
+    var ProductImg = document.getElementById("ProductImg");
+    var SmallImg= document.getElementsByClassName("small-img");
+
+    SmallImg[0].onclick = function()
+    {
+        ProductImg.src = SmallImg[0].src;
+    }
+    SmallImg[1].onclick = function()
+    {
+        ProductImg.src = SmallImg[1].src;
+    }
+    SmallImg[2].onclick = function()
+    {
+        ProductImg.src = SmallImg[2].src;
+    }
+    SmallImg[3].onclick = function()
+    {
+        ProductImg.src = SmallImg[3].src;
+    }
+
+</script>
+</body>
+</html>
+
+
+

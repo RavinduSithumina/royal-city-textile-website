@@ -1,0 +1,243 @@
+.navbar{
+	display:flex;
+	align-items:center;
+	padding:20px;
+    background-color: rgba(0, 0, 0, 0.76);
+}
+nav{
+	flex:1;
+	text-align:right;
+    
+}
+nav ul{
+	display:inline-block;
+	list-style-type:none;
+}
+nav ul li{
+	display:inline-block;
+	margin-right:80px;
+	list-style-type:none;
+}
+nav ul li a{
+	color:#fff;
+	list-style-type:none;
+	font-weight: bold;
+	font-size: 20px;
+}
+/* --------------------------------------------------------------------------account--------------------------------------------------- */
+.col-2{
+	display: inline-block;
+}
+.col-2 img{
+	width: 100%;
+}
+.account{
+	padding: 50px 0;
+	background: radial-gradient(#fff,#ffd6d6);
+}
+.form-container{
+	background: #fff;
+	width: 300px;
+	height: 400px;
+	position: relative;
+	text-align: center;
+	padding: 20px 0;
+	margin-left:130px;
+	box-shadow: 0 0 20px 0px rgba(0, 0,0, 0.1);
+	overflow: hidden;
+}
+.form-container span{
+	font-weight: bold;
+	padding: 0 10px;
+	color: #555;
+	cursor: pointer;
+	width: 100px;
+	display: inline-block;
+}
+.form-btn{
+	display: inline-block;
+}
+.form-container form{
+	max-width: 250px;
+	padding: 0 20px;
+	position: absolute;
+	top: 130px;
+	transition: transform 1s ;
+}
+form input{
+	width: 100%;
+	height: 30px;
+	margin: 10px 0;
+	padding: 0 10px;
+	border: 1px solid#ccc;
+}
+form .btn{
+	width: 100%;
+	height: 30px;
+	border: none;
+	cursor: pointer;
+	margin: 10px 0;
+	border-radius: 30px;
+	background: red;
+	font-weight: bold;
+}
+form .btn:focus{
+	outline: none;
+}
+a{
+	font-size: 12px;
+	font-weight: bold;
+}
+#loginform{
+	left: -300px;
+}
+#registerform{
+	left: 0;
+}
+#indicator{
+	width: 90px;
+	border: none;
+	background: #f31e1e;
+	height: 3px;
+	margin-top: 8px;
+	margin-right: 120px;
+	transform: translateX(100px);
+	transition: transform 1s ;
+}
+/* -------------------------------------cart---------------------------------- */
+.cart-page{
+	margin: 80px auto;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.cart-info{
+	display: flex;
+	flex-wrap: wrap;
+}
+th{
+	text-align: left;
+	padding: 5px;
+	color: #fff;
+	background: #ff523b;
+	font-weight: normal;
+}
+td{
+	padding: 10px 5px;
+}
+td input{
+	width: 40px;
+	height: 30px;
+	padding: 5px;
+}
+td a{
+	color: #ff523b;
+	font-size: 12px;
+}
+td img{
+	width: 80px;
+	height: 90px;
+	margin-right: 10px;
+}
+.totale-price{
+	display: flex;
+	justify-content: flex-end;
+
+}
+.totale-price table{
+	border-top: 3px solid #ff523b;
+	width: 100%;
+	max-width: 400px;
+}
+td:last-child{
+	text-align: right;
+}
+th:last-child{
+	text-align: right;
+}
+/*-----------------------------------------------------------------------------iteam----------------------------------------------------*/
+.col-4{
+	width:20%;
+	display: inline-block;
+	padding: 5px;
+	margin-right: 5px;
+}
+.col-4 img{
+	margin-right: 70px;
+}
+.btn{
+	display:inline-block;
+	background:#F52D32;
+	color:#fff;
+	padding:8px 30px;
+	margin:30px 0;	
+	border-radius:30px;  														/* shope now button radius */
+	transition:background 0.5s;													/* color change speed is shope now button */
+}
+.btn:hover{
+	background:#837f1c;	
+}
+.details{
+	margin-top: 70px;
+}
+.details h4{
+	margin: 20px 0;
+	font-size: 22px;
+	font-weight: bold;
+}
+.details select{
+	display: block;
+	padding: 10px;
+	margin-top: 20px;
+}
+.details input{
+	width: 50px;
+	height: 40px;
+	padding-left: 10px;
+	font-size: 20px;
+	margin-right: 10px;
+	border: 1px solid #ff523b;
+}
+input:focus{
+	outline: none;
+}
+.small-img{
+	display:inline-flex;
+	justify-content: space-between;
+	width:55%;
+}
+.small-img-col{
+	flex-basis: 33%;
+	cursor: pointer;
+}
+/*------------------------------------------------------------------------------------footer-------------------------------------------------------------------------------*/
+
+.footer{
+	/*display:flex;*/
+	background:#000;
+	color:#8a8a8a;
+	font-size:18px;
+	/*padding:10px ;*/
+}	
+.footer h3{
+	color:#fff;
+	margin-bottom:20px;
+}
+.footer ul li{
+	list-style-type:none;
+}
+.footer-col-1 img{
+	width:150px;
+	margin-left: 20px;
+}
+.footer-col-1 , .footer-col-2 ,.footer-col-3{
+	width:200px;
+	/* margin-bottom:10px; */
+	display: inline-block;
+}
+.footer-col-2,.footer-col-3{
+	text-align:center;
+	margin-left: 250px;
+	margin-bottom: 10px;
+}
